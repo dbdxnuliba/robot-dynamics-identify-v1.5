@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/stz/robot-dynamics-identify-v1.5/examples/excitation_trajectory/src/excitation_trajectory.cpp
+dynamics_library/robot_model.h
+-
+dynamics_library/robot_identify.h
+-
+nlopt.h
+-
+iostream
+-
+fstream
+-
+math.h
+-
+

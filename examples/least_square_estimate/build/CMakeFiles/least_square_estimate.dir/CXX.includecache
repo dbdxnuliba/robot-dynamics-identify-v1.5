@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/least_square_estimate/deal_txt_data.h
+fstream
+-
+string
+-
+iostream
+-
+vector
+-
+string
+-
+cstdlib
+-
+Eigen/Dense
+-
+
+/home/stz/robot-dynamics-identify-v1.5/examples/least_square_estimate/src/deal_txt_data.cpp
+least_square_estimate/deal_txt_data.h
+-
+
+/home/stz/robot-dynamics-identify-v1.5/examples/least_square_estimate/src/least_square_estimate.cpp
+least_square_estimate/deal_txt_data.h
+-
+string
+-
+Eigen/Dense
+-
+iostream
+-
+dynamics_library/robot_model.h
+-
+dynamics_library/robot_identify.h
+-
+fstream
+-
+

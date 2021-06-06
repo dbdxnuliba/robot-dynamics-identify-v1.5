@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -O3   CMakeFiles/excitation_trajectory.dir/src/excitation_trajectory.cpp.o  -o bin/excitation_trajectory -rdynamic -lrobotdynamics -lnlopt -lm 
